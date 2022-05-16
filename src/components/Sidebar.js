@@ -28,27 +28,6 @@ export default function Sidebar() {
                         <hr className="my-4 min-w-full" />
 
                         <ul className="flex-col min-w-full flex list-none">
-                            <li className="rounded-lg mb-4">
-                                <NavLink
-                                    to="/"
-                                    exact
-                                    className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
-                                    activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
-                                >
-                                    <Icon name="dashboard" size="2xl" />
-                                    Menu
-                                </NavLink>
-                            </li>
-                            <li className="rounded-lg mb-2">
-                                <NavLink
-                                    to="/settings"
-                                    className="flex items-center gap-4 text-sm text-gray-700 font-light px-4 py-3 rounded-lg"
-                                    activeClassName="bg-gradient-to-tr from-light-blue-500 to-light-blue-700 text-white shadow-md"
-                                >
-                                    <Icon name="settings" size="2xl" />
-                                    Configuraciones
-                                </NavLink>
-                            </li>
                             <li className="rounded-lg mb-2 ">
                                 <NavLink
                                     to="/tables"
@@ -58,17 +37,6 @@ export default function Sidebar() {
                                     <Icon name="toc" size="2xl" />
                                     Inventario
                                 </NavLink>
-                            </li>
-                            <li className="px-4 rounded-lg mb-2 text-gray-700">
-                                <a
-                                    href="https://demos.creative-tim.com/material-tailwind-kit-react/#/profile"
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    className="flex items-center gap-4 text-sm font-light py-3"
-                                >
-                                    <Icon name="account_circle" size="2xl" />
-                                    Perfil
-                                </a>
                             </li>
                         </ul>
                     </div>
