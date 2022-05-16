@@ -26,16 +26,6 @@ export default function footer() {
                         Blog
                     </a>
                 </li>
-                <li className="mr-6">
-                <a
-                        className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
-                        target="_blank"
-                        rel="noreferrer"
-                        href="#"
-                    >
-                        MIT License
-                    </a>
-                </li>
                 <li>
                     <a
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
