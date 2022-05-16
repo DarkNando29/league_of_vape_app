@@ -7,31 +7,31 @@ export default function footer() {
             
             <ul className="list-unstyled flex">
                 <li className="mr-6">
-                    <a
+                <a
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.creative-tim.com/presentation?ref=mtdk"
+                        href="#"
                     >
                         About Us
                     </a>
                 </li>
                 <li className="mr-6">
-                    <a
+                <a
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://www.creative-tim.com/blog/?ref=mtdk"
+                        href="#"
                     >
                         Blog
                     </a>
                 </li>
                 <li className="mr-6">
-                    <a
+                <a
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://github.com/creativetimofficial/material-tailwind-dashboard-react/blob/main/LICENSE?ref=mtdk"
+                        href="#"
                     >
                         MIT License
                     </a>
@@ -41,7 +41,7 @@ export default function footer() {
                         className="text-gray-700 hover:text-gray-900 font-medium block text-sm"
                         target="_blank"
                         rel="noreferrer"
-                        href="https://creative-tim.com/contact-us?ref=mtdk"
+                        href="#"
                     >
                         Contact Us
                     </a>

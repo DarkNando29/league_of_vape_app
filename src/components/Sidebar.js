@@ -16,14 +16,7 @@ export default function Sidebar() {
                 className={`h-screen fixed top-0 md:left-0 ${showSidebar} overflow-y-auto flex-row flex-nowrap overflow-hidden shadow-xl bg-white w-64 z-10 py-4 px-6 transition-all duration-300`}
             >
                 <div className="flex-col items-stretch min-h-full flex-nowrap px-0 relative">
-                    <a
-                        href="https://material-tailwind.com?ref=mtd"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="mt-2 text-center w-full inline-block"
-                    >
                         <H6 color="gray">League of Vapers</H6>
-                    </a>
                     <div className="flex flex-col">
                         <hr className="my-4 min-w-full" />
 
